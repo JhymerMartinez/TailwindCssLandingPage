@@ -21,7 +21,7 @@
       <label for="menu"
         class="bg-open-menu w-6 h-5 bg-cover bg-center cursor-pointer peer-checked:bg-close-menu transition-all z-50 md:hidden"></label>
       <div
-        class="fixed inset-0 bg-gradient-to-b from-white/70 to-black/70 translate-x-full peer-checked:translate-x-0 transition-transform md:static md:translate-x-0 md:bg-none">
+        class="fixed inset-0 bg-gradient-to-b from-white/70 to-black/70 translate-x-full peer-checked:translate-x-0 transition-transform z-40 md:static md:translate-x-0 md:bg-none">
         <ul
           class="absolute bg-white top-24 p-12 inset-x-0 w-[90%] mx-auto rounded-md text-center grid gap-6 h-max font-bold text-dark-blue shadow-2xl md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static">
           <li><a href="#">Pricing</a></li>
@@ -46,6 +46,9 @@
       </article>
     </section>
   </header>
+  <figure class="absolute inset-0 overflow-hidden pointer-events-none">
+    <img src="./src/images/bg-tablet-pattern.svg" alt="" class="absolute w-full -z-10 -top-24 -right-1/4 max-w-2xl">
+  </figure>
   <main>
     <section class="wrapper text-center py-24 grid gap-12 md:grid-cols-2 md:text-left">
       <article>
